@@ -1,0 +1,125 @@
+
+.Header-Top{
+    width: 100wh;
+    display: flex;
+    background-color: hsla(0, 93%, 73%, 0.715);
+    justify-content: space-around;
+  
+}
+.Header-Top  nav ul li { 
+    display: flex;
+    /* flex-direction: column; */
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    display: inline;
+    margin: 5px;
+    color: black;
+
+}
+.student{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    padding: 5px;
+    border: 1px solid black;
+    display: inline-block;
+}
+.student p{
+    margin: 0;
+}
+.welcome{
+    font-size: 1.5rem;
+    background-color: rgba(108, 37, 175, 0.866);
+    color: white;
+    border-radius: 20px;
+}
+.Log-in{
+    font-size: 1.5rem;
+    background-color: hsla(7, 83%, 48%, 0.866);
+    color: black;
+    display: inline;
+
+}
+.List-category{
+    font-size: 2.5em;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    text-align: center;
+    align-items: center;
+    background-color: hsl(207, 84%, 34%);
+    color: rgba(255, 255, 255, 0.823);
+
+}
+.List-item{
+    font-size: 2em;
+    text-align: center;
+    color: hsl(0, 0%, 26%);
+    list-style: none;
+    font-family: sans-serif;
+}
+.List-item li:hover{
+    
+    text-align: center;
+    color: hsl(138, 80%, 19%);
+    font-family: serif;
+
+}
+.UseState{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid green;
+    
+}
+.OnChange{
+    margin-top: 10px;
+}
+
+
+    
+.color-picker-container{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+.color-display{
+    height: 300px;
+    width:  300px;
+   display: flex;
+   flex-direction: column;
+   margin: 15px 15px;
+   align-items: center;
+   justify-content: center;
+   border: 5px solid hsl(0, 0%, 80%);margin-bottom: 30px;
+   border-radius: 25px;
+   transition: 0.25s ease;
+}
+
+
+.color-display p{
+    margin-bottom:5px ;
+    font-size: 1.5em;
+    text-align: center;
+    display: block;
+
+}
+
+label{
+    /* text-align: center; */
+    color: #bd0d8be6;
+    font-size: 16px;
+    margin-top: auto;
+}
+input[type="color"]{
+    height: 50px;
+    margin-left: 10px;
+    width: 75px;
+    border-radius: 10px;
+}
+.meal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
